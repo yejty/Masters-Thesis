@@ -1,0 +1,21 @@
+singularity Matrix([[t**2], [t**3]])
+System:
+\frac{- a^{2} b^{2} \cdot \left(9 t^{2} + 4\right) + a^{2} \left(- 2 t^{3} + 3 t \left(t^{2} - x\right) + 2 y\right)^{2} + b^{2} \left(2 t^{2} + 3 t \left(t^{3} - y\right) - 2 x\right)^{2}}{a^{2} b^{2} \cdot \left(9 t^{2} + 4\right)} = 0
+Derivation:
+\frac{2 \cdot \left(2 a^{2} \left(- 2 t^{3} + 3 t \left(t^{2} - x\right) + 2 y\right) \left(- 3 t \left(t^{2} - x\right) \left(9 t^{2} + 2\right) + 2 \cdot \left(9 t^{2} + 2\right) \left(t^{3} - y\right) + \left(9 t^{2} + 4\right) \left(- t^{3} + 3 t \left(t^{2} - x\right) + y\right)\right) + b^{2} \cdot \left(2 t^{2} + 3 t \left(t^{3} - y\right) - 2 x\right) \left(- 6 t \left(9 t^{2} + 2\right) \left(t^{3} - y\right) - 4 \left(t^{2} - x\right) \left(9 t^{2} + 2\right) + \left(9 t^{2} + 4\right) \left(9 t^{4} + 6 t^{2} + 6 t \left(t^{3} - y\right) - 2 x\right)\right)\right)}{a^{2} b^{2} t \left(9 t^{2} + 4\right)^{2}} = 0
+Time:
+9.106854438781738
+Determinant:
+0
+Subdeterminant:
+\frac{36 \left(- a^{4} + 2 a^{2} b^{2} - b^{4}\right)}{a^{4} b^{4} \cdot \left(81 t^{4} + 72 t^{2} + 16\right)}
+Curvature:
+\frac{6 \left|{t^{2}}\right|}{\left(t^{2} \cdot \left(9 t^{2} + 4\right)\right)^{1.5}}
+Ratio:
+\left|{b^{2} - \frac{b}{a^{2}}}\right|
+Rho:
+\frac{\left|{\frac{b^{2} \left(9 t^{4} + 4 t^{2}\right)^{2}}{a^{2} - b^{2}}}\right|}{\sqrt{324 t^{8} + 144 t^{6}}}
+p_t:
+- 3 t^{5} - 2 t^{3} + 3 t^{2} y + 2 t x
+q_t:
+- \frac{b^{2} \left(9 t^{4} + 4 t^{2}\right)^{2}}{- a^{2} + b^{2}} + 6 t^{6} - 18 t^{4} x + 12 t^{3} y
